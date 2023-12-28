@@ -1,0 +1,22 @@
+Number - let num = 1
+String - let str = "hello"
+boolean - let bool = true
+null - let nul = null
+symbol - let sym= symbol("key")  <- new one
+array - let arr = [1,2,3] 
+object - let obj{
+    key:value
+}
+
+function -
+function func_name(){
+    //function body
+}
+
+
+
+
+
+
+
+

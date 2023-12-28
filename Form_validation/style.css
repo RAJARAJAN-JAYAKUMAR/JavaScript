@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.container{
+    border: 1px solid black;
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size:20px;
+    margin-top:5px;
+    padding:10px;
+    border:1px solid rgb(34,193,195) ;
+
+}
+#form button{
+    background-color: #792099;
+    color:white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px 0px;
+    cursor:pointer;
+    font-size:2rem;
+    width:100%;
+}
+
+.input-group input:focus{
+    outline:0;
+}
